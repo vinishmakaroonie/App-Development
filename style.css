@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background: linear-gradient(109.6deg, rgb(157, 75, 199) 11.2%, rgb(119, 81, 204) 83.1%);
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+        0px 0px 20px #b393d3;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+h4 {
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+        0px 0px 20px #b393d3;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.card-header {
+    background-color: #333;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px; /* Adding margin-bottom to match nav */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+.card-body {
+    margin-bottom: 30px; /* Adjusting margin-bottom for input area */
+}
+
+.form-control {
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 90, 0);
+    color: white;
+    font-weight: 900;
+    background-color: rgb(0, 90, 0);
+}
+
+.card {
+    border: 0.5px solid black;
+    width: 700px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.table-bordered td {
+    border-bottom: 1pt dashed black;
+}
+
+tbody {
+    padding: 3px;
+    font-size: 15px;
+}
+
+td {
+    padding: 5px;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-info, .btn-danger {
+    text-decoration: none;
+}
+
+.urgency-low {
+    background-color: rgb(17, 162, 109);
+}
+.urgency-medium {
+    background-color: orange;
+}
+.urgency-high {
+    background-color: red;
+}
